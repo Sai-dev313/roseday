@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100..900&display=swap');
+
+
+/* Mobile (≤ 768px) */
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}
+
+body {
+    max-width: 768px;
+    width: auto;
+    height: 100vh;
+    margin: 5px;
+    color: #191970;
+    background: linear-gradient(to bottom, #960018, #FFFF99);
+    font-family: "Borel", serif;
+    background-attachment: fixed;
+    background-size: cover;
+    justify-content: center;
+
+
+}
+
+.sec {
+    border: 2px solid black;
+}
+
+a {
+    color: #960018;
+    /* Normal state color */
+    text-decoration: none;
+    /* Remove underline */
+
+}
+
+a:hover {
+    color: black;
+    /* Hover state color */
+}
+
+a:active {
+    color: midnightblue;
+    /* Active (clicked) state color */
+}
+
+
+
+.header_text {
+    color: #FFFF99;
+    margin: 0;
+    height: 85%;
+    margin-bottom: 0;
+    padding-top: 1.9rem;
+    font-size: 45px;
+    font-weight: bold;
+    font-style: oblique;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: auto;
+
+    line-height: 1.9;
+    letter-spacing: 0.01cap;
+    overflow: hidden;
+    animation: bg 5s linear infinite;
+}
+
+.nav {
+
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+    color: #ffff99;
+}
+
+.nav .logo {
+    display: inline-block;
+}
+
+section {
+    height: 90%;
+
+}
+
+
+
+.animate_text {
+    position: relative;
+    top: -10px;
+    margin: 0;
+    font-size: 2.8rem;
+    color: #FFFF99;
+    display: block;
+    text-align: center;
+    width: fit-content;
+    line-height: 1.8;
+    letter-spacing: 0.02em;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.animate_text>div {
+    font-size: 2.5rem;
+    opacity: 0;
+    position: relative;
+    font-weight: bold;
+    text-align: center;
+    animation: fadeInOut 8s linear infinite;
+}
+
+@keyframes fadeInOut {
+
+    0%,
+    100% {
+        opacity: 0;
+    }
+
+    10%,
+    90% {
+        opacity: 1;
+    }
+}
+
+.animate_text>div:nth-child(1) {
+
+    animation-delay: 0s;
+}
+
+.animate_text>div:nth-child(2) {
+    animation-delay: 2s;
+}
+
+.animate_text>div:nth-child(3) {
+    animation-delay: 4s;
+}
+
+.animate_text>div:nth-child(4) {
+    animation-delay: 6s;
+}
+
+
+
+
+.container {
+    height: 90vh;
+
+    margin-top: 2px;
+
+    padding-top: 1px;
+    padding-bottom: 0.7rem;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    opacity: 0;
+    /* Start transparent */
+    transform: translateY(20px);
+    /* Start slightly below its final position */
+    transition: opacity 0.5s ease, transform 12s ease;
+    /* Define transitions */
+}
+
+.container.animate-in {
+    opacity: 1;
+    /* Fade in */
+    transform: translateY(0);
+    /* Slide up to final position */
+}
+
+.main_text {
+    width: 77vw;
+    height: 2.5rem;
+    color: #ffff99;
+    font-weight: bold;
+    font-style: italic;
+
+    margin: 1px;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    line-height: 100%;
+    flex-direction: column;
+    align-content: center;
+    justify-items: center;
+    text-align: center;
+
+
+}
+
+.text-border {
+    color: #0088ff;
+    /* Text color */
+    font-weight: 800;
+    text-shadow:
+        -3px -3px 0 #000000,
+        3px -3px 0 #000000,
+        -3px 3px 0 #000000,
+        3px 3px 0 #000000;
+    /* Creates the border effect */
+    text-align: center;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 105%;
+    /* Ensure it takes the full height of the container */
+    width: 100%;
+    /* Ensure it takes the full width of the container */
+    z-index: 1;
+}
+
+.t1 {
+    font-weight: 800;
+    color: #960018;
+
+}
+
+.t2 {
+    font-weight: 800;
+    color: #960018;
+
+}
+
+.t3 {
+    font-weight: 800;
+    color: #960018;
+
+}
+
+.t4 {
+    font-weight: 800;
+    color: #960018;
+
+}
+
+.t5 {
+    font-weight: 800;
+    color: #960018;
+
+}
+
+.t6 {
+    font-weight: 800;
+    color: #960018;
+
+}
+
+.div_container {
+    width: 8rem;
+    height: 8.5rem;
+    margin: 2px;
+    border: 2px solid black;
+    box-shadow: 0 0 10px black;
+    border-radius: 9px;
+    flex-direction: row;
+    flex-shrink: initial;
+    align-content: center;
+    justify-items: center;
+    opacity: 1;
+    transition: transform 0.3s ease-in;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: rgb(0, 136, 255);
+    background-position: center;
+
+
+}
+
+.div_container:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    border-color: #ffff99;
+    box-shadow: 0 0 10px #ffff99;
+}
+
+
+.image_div {
+    width: 7.9rem;
+    letter-spacing: 0.8px;
+    font-style: oblique;
+    padding: 2px;
+    border-radius: 9px;
+    margin-right: 2px;
+    margin-left: 2px;
+    flex-direction: row;
+    align-content: center;
+    justify-items: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.footer_div {
+
+    width: auto;
+
+    margin: 0;
+    margin-top: 3.5px;
+    padding-bottom: 1.9rem;
+    padding: 5px;
+
+
+    flex-direction: row;
+    align-content: flex-start;
+    justify-items: center;
+    text-align: center;
+    opacity: 1;
+    transition: transform 0.3s ease-in;
+
+}
+
+.footer_div:hover {
+    opacity: 0.5;
+    transform: scale(1.1);
+    box-shadow: 2px black;
+}
+
+.anch {
+    color: #960018;
+    font-weight: bold;
+    font-style: oblique;
+    border: 2px solid black;
+    width: 80%;
+    height: auto;
+    box-shadow: 0 0 10px black;
+    border-radius: 5px;
+}
+
+.anch:hover {}

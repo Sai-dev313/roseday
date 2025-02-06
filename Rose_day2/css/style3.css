@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* Mobile (≤ 768px) */
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}
+
+/*Blue*/
+
+body {
+    max-width: 768px;
+    width: auto;
+    height: 90vh;
+    margin: 5px;
+    color: #191970;
+    background: linear-gradient(to bottom, #0284b0, #cbdec7);
+
+    background-attachment: fixed;
+    background-size: cover;
+    justify-content: center;
+
+
+}
+
+
+
+.poppins-bold-italic {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: italic;
+    text-align: center;
+}
+
+
+section {
+    height: 90vh;
+    width: 380;
+    border: 2px solid black;
+}
+
+
+
+
+
+.image {
+    width: 295px;
+    height: 44%;
+
+    border-radius: 10px;
+    box-shadow: 0 0 28px rgb(0, 0, 0);
+    flex-direction: row;
+    align-content: center;
+    justify-items: center;
+    background-size: contain;
+    margin-top: 4.5rem;
+    margin-left: 1.6rem;
+}
+
+
+.content {
+    margin-top: 4.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    padding: 0.5rem;
+    background-color: rgb(151, 204, 221);
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+
+.material-symbols-outlined {
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+
+
+}
+
+a {
+    color: #191970;
+    text-decoration: none;
+}
+
+/*Green*/
+.green-body {
+    max-width: 768px;
+    width: auto;
+    height: 90vh;
+    margin: 5px;
+    color: #191970;
+    background: linear-gradient(to bottom, #02b01c, #ffffff);
+
+    background-attachment: fixed;
+    background-size: cover;
+    justify-content: center;
+}
+
+.content-green {
+    color: #012b07;
+    margin-top: 4.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    padding: 0.5rem;
+    background-color: rgba(69, 230, 104, 0.364);
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+
+.g_a {
+    color: #012b07;
+    text-decoration: none;
+}
+
+/*orange*/
+.orange-body {
+    max-width: 768px;
+    width: auto;
+    height: 90vh;
+    margin: 5px;
+    color: #191970;
+    background: linear-gradient(to bottom, #dd7105, #f2efe9);
+
+    background-attachment: fixed;
+    background-size: cover;
+    justify-content: center;
+}
+
+.content-orange {
+    color: #402702;
+    margin-top: 4.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    padding: 0.5rem;
+    background-color: rgba(158, 106, 10, 0.185);
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+
+.o_a {
+    color: #402702;
+    text-decoration: none;
+}
+
+
+/*purple*/
+.purple-body {
+    max-width: 768px;
+    width: auto;
+    height: 90vh;
+    margin: 5px;
+    color: #191970;
+    background: linear-gradient(to bottom, #7b0cd6, #f2efe9);
+
+    background-attachment: fixed;
+    background-size: cover;
+    justify-content: center;
+}
+
+.content-purple {
+    color: #240240;
+    margin-top: 4.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    padding: 0.5rem;
+    background-color: rgba(99, 17, 172, 0.174);
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+
+.p_a {
+    color: #240240;
+    text-decoration: none;
+}
+
+
+/*red*/
+.red-body {
+    max-width: 768px;
+    width: auto;
+    height: 90vh;
+    margin: 5px;
+    color: #191970;
+    background: linear-gradient(to bottom, #ba0b0b, #ffffff);
+
+    background-attachment: fixed;
+    background-size: cover;
+    justify-content: center;
+}
+
+.content-red {
+    color: #400202;
+    margin-top: 4.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    padding: 0.5rem;
+    background-color: rgba(172, 17, 17, 0.174);
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+
+.r_a {
+    color: #400202;
+    text-decoration: none;
+}
+
+/*white*/
+.white-body {
+    max-width: 768px;
+    width: auto;
+    height: 90vh;
+    margin: 5px;
+    color: #191970;
+    background: linear-gradient(to bottom, #ffffff, #cac9c9);
+
+    background-attachment: fixed;
+    background-size: cover;
+    justify-content: center;
+}
+
+.content-white {
+    color: #282828;
+    margin-top: 4.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    padding: 0.5rem;
+    background-color: rgba(192, 187, 187, 0.853);
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+
+.w_a {
+    color: #282828;
+    text-decoration: none;
+}
+
+/*hrd*/
+
+@keyframes backgroundScroll {
+    0% {
+        background-position: 0% 0%;
+    }
+
+    100% {
+        background-position: 100% 100%;
+    }
+}
+
+.hrd-body {
+    max-width: 768px;
+    width: auto;
+    height: 150vh;
+    margin: 5px;
+    background: linear-gradient(to bottom, rgb(247, 232, 232), lightpink), url('/Rose_day2/images/rose7.jpg');
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+
+    background-position: 0% 0%;
+    animation: backgroundScroll 10s linear infinite;
+    background-size: cover;
+    justify-content: center;
+    font-family: 'poppins', cursive;
+
+
+    text-align: center;
+    padding: 0.5rem;
+
+}
+
+.one {
+    height: 150vh;
+    border: 2px solid black;
+    border-radius: 2rem;
+    margin-bottom: 1.5 rem;
+}
+
+.text-div h2 {
+    color: rgb(255, 113, 160);
+    text-shadow: 0 0 10px #000000;
+    -webkit-text-stroke: 2px#000000;
+    margin-top: 5rem;
+    text-align: center;
+    display: flex;
+    padding: 0.5rem;
+    font-weight: bold;
+    font-style: oblique;
+    display: flexs;
+    flex-direction: wrap;
+
+    animation: fadeIn 1s ease-in-out both;
+    font-size: 2rem;
+
+
+}
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes typing {
+    0% {}
+
+    100% {}
+}
+
+
+@keyframes roseAnimation {
+    0% {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+
+    50% {
+        transform: scale(1.1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+
+
+
+.image_one,
+.image_two,
+.image_three {
+    width: 80%;
+    height: 200px;
+    margin: 2rem;
+    background-size: cover;
+    background-position: 0%;
+    animation: fadeIn 2s ease-in-out both;
+    margin-bottom: 0.5rem;
+    margin-top: 5.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px black;
+}
+
+.image_one {
+    animation-duration: 2.5s;
+    animation-delay: 0s;
+}
+
+.image_two {
+    animation-duration: 2.5s;
+    animation-delay: 2s;
+}
+
+.image_three {
+    animation-duration: 5.5s;
+    animation-delay: 4s;
+}
